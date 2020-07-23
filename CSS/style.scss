@@ -31,6 +31,21 @@ sans-serif;
     flex-direction: column;
     align-items: center;
 
+    @media (max-width: 568px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-size: cover;
+    }
+
+    @media (max-width: 300px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 
     &-article {
         color: #fafafa;
@@ -64,7 +79,6 @@ sans-serif;
         #texto {
             color: #222;
             font-size: 1.3em;
-            min-width: 500px;
             max-width: 700px;
             min-height: 70px;
             max-height: auto;
@@ -73,6 +87,16 @@ sans-serif;
             border-radius: 5px;
             border: none;
             box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+
+            @media (max-width: 768px) {
+                width: 500px;
+            }
+            @media (max-width: 500px) {
+                width: 300px;
+            }
+            @media (max-width: 300px) {
+                width: 250px;
+            }
         }
 
         #start {
