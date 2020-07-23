@@ -1,1 +1,165 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*BREAK POINTS*/
+/* COLORS */
+/* FONTS */
+.main {
+  background-image: url(https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-article {
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-article-title {
+  margin-top: 1em;
+  font-size: 3rem;
+  color: #fafafa;
+  padding-bottom: 1em;
+}
+
+.main-article-parra {
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fafafa;
+  padding-bottom: 1em;
+}
+
+.main .botones {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .botones #texto {
+  color: #222;
+  font-size: 1.3em;
+  min-width: 500px;
+  max-width: 700px;
+  min-height: 70px;
+  max-height: auto;
+  background-color: #fafafa;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.main .botones #start {
+  color: #333;
+  font-weight: bold;
+  width: 140px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.main .botones #start:hover {
+  background-color: #03fc49;
+}
+
+.main .botones #stop {
+  color: #333;
+  font-weight: bold;
+  width: 140px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.main .botones #stop:hover {
+  background-color: #fc1403;
+}
+
+.main .footer {
+  color: red;
+  margin-top: 5em;
+}
+
+.main .footer .boton {
+  font-family: "Roboto", sans-serif;
+  color: #fafafa !important;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.2em;
+  background: #1d1f1d;
+  border: 2px solid;
+  border-color: #1d1f1d;
+  position: relative;
+  border-radius: 42px 42px 42px 42px;
+  opacity: 0.97;
+}
+
+.main .footer .boton:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 42px 42px 42px 42px;
+}
+
+.main .footer .boton:hover:before {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
